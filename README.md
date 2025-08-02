@@ -1,3 +1,7 @@
+# 为PubMed RSS添加影响因子等信息
+
+Adds impact factor and other info to PubMed RSS feeds, and generates OPML of multiple feeds.
+
 # 需求
 
 通常阅读器（Feedly/FocusReader）下PubMed的RSS订阅正文只包含摘要等基本内容，不便判断文章水平。同时如果可以引入影响因子、翻译等辅助内容则可以提高阅读效率
