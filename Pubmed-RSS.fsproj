@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>KPX.Pubmed_RSS</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="IFDatabase.fs" />
+    <Compile Include="RssUtils.fs" />
+    <Compile Include="RssModify.fs" />
+    <Compile Include="RateController.fs" />
+    <Compile Include="Feeds.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="data\jourcache.xml" />
+    <EmbeddedResource Include="data\CopyofImpactFactor2024.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Falco" Version="5.0.2" />
+    <PackageReference Include="NLog" Version="6.0.2" />
+    <PackageReference Include="System.ServiceModel.Syndication" Version="9.0.7" />
+  </ItemGroup>
+
+</Project>

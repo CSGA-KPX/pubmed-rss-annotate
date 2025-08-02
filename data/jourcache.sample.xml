@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE JournalCache [ <!ELEMENT JournalCache (Journal*)>
+<!ELEMENT Journal (Name,Issn*,MedAbbr?,IsoAbbr?,Alias*,StartYear?,EndYear?,NlmUniqueID?,ActivityFlag)>
+<!ATTLIST Journal jrid CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name cache CDATA #IMPLIED>
+<!ELEMENT Issn (#PCDATA)>
+<!ATTLIST Issn type (print|electronic) #REQUIRED>
+<!ELEMENT MedAbbr (#PCDATA)>
+<!ATTLIST MedAbbr cache CDATA #IMPLIED>
+<!ELEMENT IsoAbbr (#PCDATA)>
+<!ELEMENT Alias (#PCDATA)>
+<!ELEMENT StartYear (#PCDATA)>
+<!ELEMENT EndYear (#PCDATA)>
+<!ELEMENT NlmUniqueID (#PCDATA)>
+<!ELEMENT ActivityFlag (#PCDATA)>
+<!ELEMENT TotalInPubMed (#PCDATA)> ]>
+<JournalCache>
+<Journal jrid="28723"><Name cache="-288270914">Population &amp; development</Name><Issn type="print">0897-3849</Issn><Alias>Population &amp; development</Alias><Alias>Population and development</Alias><StartYear>1987</StartYear><EndYear>1995</EndYear><NlmUniqueID>101085596</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="28759"><Name cache="1912016681">Migrations societe</Name><Issn type="print">0995-7367</Issn><Alias>Migrations societe</Alias><NlmUniqueID>101085763</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="21982"><Name cache="1276782827">Abstracts. Academy for Health Services Research and Health Policy. Meeting</Name><Alias>AHSR abstracts</Alias><Alias>AHSRHP Annu Meet</Alias><Alias>Abstracts</Alias><NlmUniqueID>101086218</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="35092"><Name cache="-1099852621">Communique (Kampala, Uganda)</Name><Alias>Communique</Alias><Alias>Isis-WICCE Communique</Alias><StartYear>1996</StartYear><NlmUniqueID>101086488</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="28978"><Name cache="-666489131">Washington newsworks</Name><Alias>Newsworks</Alias><Alias>Washington newsworks</Alias><StartYear>1976</StartYear><EndYear>1976</EndYear><NlmUniqueID>101086592</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="30052"><Name cache="-1796141204">The journal of critical psychology, counselling and psychotherapy</Name><Issn type="print">1471-7646</Issn><Alias>JCPCP</Alias><Alias>The journal of critical psychology, counselling and psychotherapy</Alias><StartYear>2001</StartYear><NlmUniqueID>100970069</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="29337"><Name cache="-738396068">American Universities Field Staff reports: Europe</Name><Alias>American Universities Field Staff reports: Europe</Alias><Alias>Europe</Alias><NlmUniqueID>101090990</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="29364"><Name cache="-1760936538">The Australian humanist</Name><Issn type="print">0004-9328</Issn><Alias>The Australian humanist</Alias><StartYear>1966</StartYear><NlmUniqueID>101091403</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+<Journal jrid="29378"><Name cache="64437811">Barnard alumnae</Name><Alias>Barnard alumnae</Alias><NlmUniqueID>101091499</NlmUniqueID><ActivityFlag>0</ActivityFlag></Journal>
+</JournalCache>
